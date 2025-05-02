@@ -195,8 +195,8 @@ function DisplayResult(content)
     controlDiv.appendChild(document.createElement("br"));
 
     runButton.onclick = async () => {
-		let matrix_size = 2048;
-        let num_repeats = 20;
+		let matrix_size = 1024;
+        let num_repeats = 40;
         await GPU_MatrixMult(matrix_size, num_repeats);
     };
     const GPU_MatrixMult = async (matrix_size, repetitions) => {
