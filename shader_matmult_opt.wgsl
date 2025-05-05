@@ -1,6 +1,3 @@
-// https://github.com/zanussbaum/surfgrad/blob/main/src/shaders/matmul.ts
-// adapted Apr 30, 2025
-
 struct MatrixWSizeHeader {
     dim: vec2f,
     data: array<f32>,
