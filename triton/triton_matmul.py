@@ -5,6 +5,7 @@ This script implements and benchmarks a simple matrix multiplication (GEMM) usin
 It measures execution time and calculates throughput in GFLOPS.
 """
 
+
 import torch
 import triton
 import triton.language as tl
